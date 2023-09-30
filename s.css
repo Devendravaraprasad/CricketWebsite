@@ -1,0 +1,129 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://th.bing.com/th/id/R.385957b07b5b5c184c50a7826ee8f36a?rik=drZJmmyzgIv%2bLQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f0%2f4%2f93076.jpg&ehk=4qinA9je%2fqfBNL6fOGXNRGSQKrtR0oVowR1UteYsUQI%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            padding: 10px 20px;
+        }
+
+        .logo img {
+            height: 80px;
+            width: 79px;
+            margin-bottom: -6px;
+        }
+
+        .heading-text {
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+
+        .links-container {
+        
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+        }
+
+        .link {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .link a {
+            color: white;
+            text-decoration: none;
+        }
+        .bordered-image {
+            border: 2px solid #000; 
+            width: 55%; 
+            height: 50%; 
+            margin-left: 1%;
+        }
+        .bordered-image1 {
+            border: 2px solid #000; 
+            width: 40%; 
+            height: 50%; 
+            margin-left: 57%;
+            margin-top: -50%;
+            margin-bottom: 3%;
+        }
+        .bordered-image2 {
+            border: 2px solid #000; 
+            width: 13%; 
+            height: 13%; 
+            margin-left: 85%;
+            margin-top: -90%;
+            margin-bottom: 27.8%;
+        }
+        .bordered-image3 {
+            border: 2px solid #000; 
+            width: 13%; 
+            height: 14%; 
+            margin-left: 4%;
+            margin-top: 6%;
+            margin-bottom: 1%;
+        }
+        .bordered-image4 {
+            border: 2px solid #000; 
+            width: 13%; 
+            height: 12%; 
+            margin-left: 28%;
+            margin-top: -18%;
+            margin-bottom: 10%;
+        }
+        .bordered-image5 {
+            border: 2px solid #000; 
+            width: 13%; 
+            height: 12%; 
+            margin-left: 52.6555%;
+            margin-top: -18%;
+            margin-bottom: 10%;
+        }
+        .bordered-image6 {
+            border: 2px solid #000; 
+            width: 13%; 
+            height: 12%; 
+            margin-left: 78%;
+            margin-top: -18%;
+            margin-bottom: 10%;
+        }
+        .bordered-image7 {
+            width: 3%; 
+            height: 3%; 
+            margin-left: 80%;
+            margin-top: -90%;
+            margin-bottom: 35%;
+        }
+        .bordered-image8 {
+             
+            width: 7%; 
+            height: 7%; 
+            margin-left: 70%;
+            margin-top: -80%;
+            margin-bottom: 36%;
+        }
+        .bordered-image9 {
+             
+             width: 7%; 
+             height: 7%; 
+             margin-left: 74%;
+             margin-top: -95%;
+             margin-bottom: 36%;
+         }
+    
