@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://th.bing.com/th/id/R.385957b07b5b5c184c50a7826ee8f36a?rik=drZJmmyzgIv%2bLQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f0%2f4%2f93076.jpg&ehk=4qinA9je%2fqfBNL6fOGXNRGSQKrtR0oVowR1UteYsUQI%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            padding: 10px 20px;
+        }
+
+        .logo img {
+            height: 80px;
+            width: 79px;
+            margin-bottom: -6px;
+        }
+
+        .heading-text {
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        img.featured-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .links-container {
+        
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+        }
+
+        .link {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .link a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <h1 class="logo"><img src="BCCI-Logo-modified (1).png" alt="BCCI Logo"></h1>
+        
+    </div>
+    <h1 style="background-color: rgb(81, 68, 111); margin-top: -8%; padding: 3%; margin-left: 1%;"></h1>
+
+    <img src="https://resources.pulse.icc-cricket.com/photo-resources/2023/09/14/f6824f12-873f-4594-bb60-2f7cfddac340/greatest-moments-16x9-v2.png?width=650&height=495" alt="Cricket Image" class="featured-image">
+
+    <div class="links-container">
+        <div class="link" style="margin-left: -2200px ;margin-top: 49px;"><a href="https://www.bcci.tv/international/fixtures";>INTERNATIONAL</a></div>
+        <div class="link" style="margin-left: -1300px ;margin-top: -24px;"><a href="https://www.bcci.tv/domestic/fixtures">DOMESTIC</a></div>
+        <div class="link" style="margin-left: -300px ;margin-top: -28px;"><a href="https://www.bcci.tv/news">NEWS</a></div>
+        <h1 class="heading-text" style="margin-left:-2620px ;margin-top: -55px;">INDIA<br>2023</h1>
+    </div>
+</body>
+</html>
