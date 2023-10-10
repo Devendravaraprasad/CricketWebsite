@@ -1,40 +1,11 @@
-// Countdown function
-function countdown() {
-    const countDownDate = new Date("Oct 31, 2023 00:00:00").getTime(); // Set the target date and time
 
-    // Update the countdown every 1 second
-    const x = setInterval(function () {
-        const now = new Date().getTime(); // Get the current date and time
-        const distance = countDownDate - now; // Calculate the time remaining
-
-        // Calculate days, hours, minutes, and seconds
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        // Display the countdown in the "countdown" element
-        document.getElementById("countdown").innerHTML = `
-            ${days}d ${hours}h ${minutes}m ${seconds}s`;
-
-   
-        if (distance < 0) {
-            clearInterval(x); 
-            document.getElementById("countdown").innerHTML = "EXPIRED";
-        }
-    }, 1000); 
-}
-window.onload = countdown;
-
-
-
-// slider
+// for sliders
 let slideIndex = 0;
-showSlides();
+showslides();
 
-function showSlides() {
+function showslides() {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
+  let slides = document.getElementsByClassName("myslides");
   let dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
@@ -46,35 +17,15 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 4 seconds
+  setTimeout(showslides, 2000); // Change image every 4 seconds
 }
 
-
-
-
-// const contactForm = document.getElementById('contact-form');
-
-// contactForm.addEventListener('submit', function(event) {
-//     event.preventDefault();
-
-//     const name = document.getElementById('name').value;
-//     const email = document.getElementById('email').value;
-//     const message = document.getElementById('message').value;
-
-//     if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
-//         alert('Please fill in all fields.');
-//         return;
-//     }
-
-//     // You can send the form data to a server or perform other actions here
-//     alert('Message sent successfully!');
-//     contactForm.reset();
-// });
+// buttons for t20,odi,test
 
 // Get references to the buttons and image container
-const showImagesButton1 = document.getElementById("showImagesButton");
-const showImagesButton2 = document.getElementById("showImagesButton2");
-const showImagesButton3 = document.getElementById("showImagesButton3");
+const showImagesButton1 = document.getElementById("button1");
+const showImagesButton2 = document.getElementById("button2");
+const showImagesButton3 = document.getElementById("button3");
 const imageContainer = document.getElementById("imageContainer");
 
 // Function to display images
@@ -131,3 +82,21 @@ showImagesButton3.addEventListener("click", function () {
     ];
     showImages(yetAnotherImageUrls);
 });
+
+
+// for heinburger menu
+burger=document.querySelector('.burger')
+navbar=document.querySelector('.navbar')
+navlist=document.querySelector('.navlist')
+rightnav=document.querySelector('.rightnav')
+
+burger.addEventListener('click',()=>{
+    rightnav.classList.toggle('v-class');
+    navlist.classList.toggle('v-class');
+    navbar.classList.toggle('hnav');
+})
+
+
+
+
+
